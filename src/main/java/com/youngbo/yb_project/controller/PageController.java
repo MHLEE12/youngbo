@@ -12,4 +12,9 @@ public class PageController {
     public String main() {
         return "/index";
     }
+
+    @GetMapping("/introduce")
+    public String introduce() {
+        return "/introduce";
+    }
 }
